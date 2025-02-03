@@ -24,7 +24,7 @@ A detailed list of the required libraries can be found in:
 The proper installation must then be done with poetry and conda.
 
 ## Data Splitting Strategy
-The dataset used for training and evaluation comprises AIS signals collected from the Kiel Fjord region between **March 24, 2022, and June 30, 2023**. It is partitioned into training and validation sets while maintaining a representative distribution of ship trajectories across different **seasons**. As the dataset is the property of the CAPTN project and subject to data privacy restrictions, it is not publicly available. Interested users should contact the authors for further inquiries.
+The dataset used for training and evaluation comprises AIS signals collected from the Kiel Fjord region between **March 24, 2022, and June 30, 2023**. It is partitioned into training and validation sets while maintaining a representative distribution of ship trajectories across different **seasons**. As the dataset is the property of the [CAPTN](https://captn.sh/foerde-areal/) research project and subject to data privacy restrictions, it is not publicly available. Interested users should contact the authors for further inquiries.
 
 ### Federated Data Partitioning
 
