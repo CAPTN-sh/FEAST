@@ -1,0 +1,30 @@
+name: feast
+
+channels:
+    - pytorch
+    - conda-forge
+    - nodefaults
+
+dependencies:
+    - python >=3.12, < 3.13
+    - pip
+    - mamba
+    - conda-lock
+
+    # Maps
+    - geoviews
+
+    # Similarity measures
+    - dtaidistance
+
+    # Plotting
+    - selenium
+    - firefox
+    - geckodriver
+
+
+    - pip:
+        - poetry
+
+
+

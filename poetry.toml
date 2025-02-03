@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=64.0.0", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "feast"
+version = "1.0.0"
+license = { file = "LICENSE" }
+description = "Federated Evidential Learning for Maritime Anomaly Detection"
+readme = "README.md"
+authors = [
+    { name = "Shang Gao", email = "sgao@informatik.uni-kiel.de"},
+    { name = "Zhixin Huang", email =  "zhixin.huang@uni-kassel.de"},
+    { name = "Ghassan Al-Falouji", email =  "gaf@informatik.uni-kiel.de"}
+]
+
+requires-python = ">=3.12, <3.13"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "flower (^1.12.0)",
+    "torch",
+    "ray (^2.38.0)",
+    # JUPYTER DEPENDENCIES >
+    "jupyter",
+    "jupyter-client",
+    "jupyter-core",
+    "ipympl",
+    "mpl-tools",
+    "notebook",
+    "nb-conda-store-kernels",
+    "nbclean",
+    "nbresuse",
+    "ipykernel",
+    "ipywidgets"
+    # JUPYTER DEPENDENCIES <
+]
+
+[project.optional-dependencies]
+dev = ["flake8"]
+
+[tool.poetry]
+packages = [
+    { include = "src", from = "src" }
+]

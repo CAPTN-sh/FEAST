@@ -1,0 +1,34 @@
+
+# Assets
+[dD]ata/
+[aA]ssets/
+
+# Poetry lock file
+*.lock
+
+# Mac
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyCharm
+.idea
+.idea/*
+/.idea/*
+/.idea
+
+
+# VSCode settings
+.vscode/
+.vscode/*
+*history/
+
+# Python Cache
+__pycache__/
+__pycache__/*
+
+# flower
+flower/
