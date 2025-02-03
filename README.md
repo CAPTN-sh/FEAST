@@ -1,8 +1,11 @@
 # Towards Cognitive Situational Awareness in Maritime Traffic Using Federated Evidential Learning
 
 ## Introduction
-This repository contains the official implementation of the paper *"Towards Cognitive Situational Awareness in Maritime Traffic Using Federated Evidential Learning"*.  
-We present the **F**ederated **E**vidential Learning for **A**nomaly Detection of **S**hip **T**rajectories (**FEAST**) framework, which integrates **Federated Learning** and **Evidential Learning** to provide a **privacy-preserving, collaborative, and uncertainty-aware** approach to anomaly detection in maritime traffic.
+This repository contains the official implementation of the paper *"Towards Cognitive Situational Awareness in Maritime Traffic Using Federated Evidential Learning"*, submitted for the [CogSIMA 2025](https://edas.info/web/cogsima2025/submissions.html) conference.
+
+We present the **F**ederated **E**vidential Learning for **A**nomaly Detection of **S**hip **T**rajectories (**FEAST**) framework, which integrates Federated Learning and Evidential Learning to provide a privacy-preserving, collaborative, and uncertainty-aware approach to anomaly detection in maritime traffic.
+
+This research has been funded by the German Federal Ministry for Digital and Transport within the project ``CAPTN Förde Areal II - Praxisnahe Erforschung der (teil)autonomen, emissionsfreien Schifffahrt im digitalen Testfeld'' (45DTWV08D).
 
 
 ![FEAST Framework](images/FEAST.png)
@@ -21,8 +24,7 @@ A detailed list of the required libraries can be found in:
 The proper installation must then be done with poetry and conda.
 
 ## Data Splitting Strategy
-
-The dataset used for training and evaluation consists of AIS signals collected from the Kiel Fjord region between **March 24, 2022, and June 30, 2023**. The dataset is partitioned into training and validation sets while ensuring a representative distribution of ship trajectories across different **seasons**.
+The dataset used for training and evaluation comprises AIS signals collected from the Kiel Fjord region between **March 24, 2022, and June 30, 2023**. It is partitioned into training and validation sets while maintaining a representative distribution of ship trajectories across different **seasons**. As the dataset is the property of the CAPTN project and subject to data privacy restrictions, it is not publicly available. Interested users should contact the authors for further inquiries.
 
 ### Federated Data Partitioning
 
